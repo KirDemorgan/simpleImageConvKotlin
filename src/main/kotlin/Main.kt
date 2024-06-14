@@ -12,7 +12,7 @@ fun main() {
     val mainmenu = MainMenu()
 
     while (true) {
-        mainmenu.printMainMenu()
+        val userChoice = mainmenu.printMainMenu()
         when (userChoice) {
             1 -> {
                 println("Список изображений в папке $directoryPath")
